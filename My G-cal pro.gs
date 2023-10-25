@@ -2,7 +2,7 @@ function traerCalendarioprincipal() {
   var libro = SpreadsheetApp.getActiveSpreadsheet();
   var hoja = libro.getActiveSheet();
 
-  var idCalendario = "christinewarriorsunday@gmail.com";
+  var idCalendario = "youremail@gmail.com";
   var micalendar = CalendarApp.getCalendarById(idCalendario);
   var eventos = micalendar.getEvents(new Date(2023, 05, 15), new Date(2023, 09, 09));
 
